@@ -12,7 +12,7 @@ const StoryStarter = () => {
     <div 
       className="container card card-body bg-secondary text-center text-success border-success mb-3 mt-3">
       <h3>
-        Stumped for a Character First Name?
+        Start Your Story with a Random Idea
       </h3>
       <h4>Hit the 'Name Generator' Button to Generate a New Name</h4>
       <br/>
@@ -27,7 +27,7 @@ const StoryStarter = () => {
           Your New Story Starter is...
         </h5>
         <br/>
-        <h2 className="card border-secondary">
+        <h2 className="card bg-secondary">
           <br/>
           ~{generateStoryStarter()}~
           <br/>

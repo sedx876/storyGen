@@ -23,6 +23,8 @@ const Navbar = () =>{
         </Link>
         </li>
 
+        ||
+
         <li class="nav-item">
           <Link 
           id='' 
@@ -31,8 +33,16 @@ const Navbar = () =>{
           Story Starter
         </Link>
         </li>
+
+        ||
+
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+        <Link 
+          id='' 
+          className="text-primary" 
+          to="/musicinspo">
+          Music Inspiration
+        </Link>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>

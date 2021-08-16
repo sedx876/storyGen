@@ -27,7 +27,7 @@ const FirstNameGenerator = () => {
           Your New Character Name is...
         </h5>
         <br/>
-        <h2 className="card border-secondary">
+        <h2 className="card bg-secondary">
           <br/>
           ~{generateFirstName()}~
           <br/>
