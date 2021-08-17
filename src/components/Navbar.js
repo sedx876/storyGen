@@ -56,6 +56,17 @@ const Navbar = () =>{
         </Link>
         </li>
 
+        ||
+
+        <li class="nav-item">
+        <Link 
+          id='' 
+          className="text-primary" 
+          to="/fandoms">
+          Fandoms
+        </Link>
+        </li>
+
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
           <div class="dropdown-menu">
