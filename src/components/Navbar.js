@@ -1,12 +1,16 @@
 import React from 'react'
 import { Link, withRouter } from 'react-router-dom'
+import story from '../images/story.png'
 
 const Navbar = () =>{
 
   return(
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary text-primary">
   <div class="container-fluid">
-    <a class="navbar-brand text-primary" href="#">storyGen</a>
+    <Link class="navbar-brand text-primary" to='/'>
+      <img src={story} style={{width: '50px', height: '50px'}}/>
+      storyGen
+    </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -23,7 +27,7 @@ const Navbar = () =>{
         </Link>
         </li>
 
-        ||
+        ⭐️
 
         <li class="nav-item">
           <Link 
@@ -34,7 +38,7 @@ const Navbar = () =>{
         </Link>
         </li>
 
-        ||
+        ⭐️
 
         <li class="nav-item">
         <Link 
@@ -45,7 +49,7 @@ const Navbar = () =>{
         </Link>
         </li>
 
-        ||
+        ⭐️
 
         <li class="nav-item">
         <Link 
@@ -56,7 +60,7 @@ const Navbar = () =>{
         </Link>
         </li>
 
-        ||
+        ⭐️
 
         <li class="nav-item">
         <Link 
@@ -67,7 +71,52 @@ const Navbar = () =>{
         </Link>
         </li>
 
-        <li class="nav-item dropdown">
+        ⭐️
+
+        <li class="nav-item">
+        <Link 
+          id='' 
+          className="text-primary" 
+          to="/ranimg">
+          Random Image
+        </Link>
+        </li>
+
+        ⭐️
+
+        <li class="nav-item">
+        <Link 
+          id='' 
+          className="text-primary" 
+          to="/superpower">
+          Random SuperPowers
+        </Link>
+        </li>
+
+        ⭐️
+
+        <li class="nav-item">
+        <Link 
+          id='' 
+          className="text-primary" 
+          to="/superpower">
+          Weird Facts
+        </Link>
+        </li>
+
+        ⭐️
+
+        <li class="nav-item">
+        <Link 
+          id='' 
+          className="text-primary" 
+          to="/superpower">
+          Fandom Mashup
+        </Link>
+        </li>
+
+
+        {/* <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
           <div class="dropdown-menu">
             <a class="dropdown-item" href="#">Action</a>
@@ -76,7 +125,7 @@ const Navbar = () =>{
             <div class="dropdown-divider"></div>
             <a class="dropdown-item" href="#">Separated link</a>
           </div>
-        </li>
+        </li> */}
       </ul>
       
     </div>

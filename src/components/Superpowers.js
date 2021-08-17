@@ -1,35 +1,35 @@
 import React from 'react';
-import firstNames from '../data/firstNames'
+import superpowers from '../data/superpowers'
 import {Link} from 'react-router-dom'
 
-const generateFirstName = () => {
-  const name = firstNames[Math.floor(Math.random() * firstNames.length)];
-  return name
+const generateSuperpower = () => {
+  const superpower = superpowers[Math.floor(Math.random() * superpowers.length)];
+  return superpower
 }
 
-const FirstNameGenerator = () => {
+const Superpowers = () => {
   return (
     <div 
       className="container card card-body bg-secondary text-center text-success border-success mb-3 mt-3">
       <h3>
-        Stumped for a Character First Name?
+        Looking for a Random SuperPower?
       </h3>
-      <h4>Hit the 'Name Generator' Button to Generate a New Name</h4>
+      <h4>Hit the 'Generate Random SuperPower' Button to Generate a SuperPower</h4>
       <br/>
         <Link 
           id='nameGenBtn' 
           className="btn btn-raised btn-primary btn-sm mx-auto text-center" 
-          to="/firstnamegen">
-          Generate First Name
+          to="/superpower">
+          Generate Random SuperPower 
         </Link>
       <br/>
         <h5>
-          Your New Character Name is...
+          Your Random SuperPower is...
         </h5>
         <br/>
         <h2 className="card bg-secondary">
           <br/>
-          👉{generateFirstName()}👈
+          👉{generateSuperpower()}👈
           <br/>
         </h2>
         <br/>
@@ -39,4 +39,4 @@ const FirstNameGenerator = () => {
   );
 }
 
-export default FirstNameGenerator;
+export default Superpowers;

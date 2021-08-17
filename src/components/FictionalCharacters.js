@@ -29,7 +29,7 @@ const FictionalCharacters = () => {
         <br/>
         <h2 className="card bg-secondary">
           <br/>
-          ~{generatefictionalCharacters()}~
+          👉{generatefictionalCharacters()}👈
           <br/>
         </h2>
         <br/>

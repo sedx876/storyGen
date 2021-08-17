@@ -29,7 +29,7 @@ const MusicInspo = () => {
         <br/>
         <h2 className="card bg-secondary">
           <br/>
-          ~{generateMusicInspo()}~
+          👉{generateMusicInspo()}👈
           <br/>
         </h2>
         <br/>

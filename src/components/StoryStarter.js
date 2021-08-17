@@ -29,7 +29,7 @@ const StoryStarter = () => {
         <br/>
         <h2 className="card bg-secondary">
           <br/>
-          ~{generateStoryStarter()}~
+          👉{generateStoryStarter()}👈
           <br/>
         </h2>
         <br/>

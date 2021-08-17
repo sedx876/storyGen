@@ -8,6 +8,7 @@ import Home from './components/Home'
 import FictionalCharacters from './components/FictionalCharacters'
 import Fandoms from './components/Fandoms'
 import RandomImage from './components/RandomImage'
+import Superpowers from './components/Superpowers'
 
 const MainRouter = () => {
 
@@ -22,6 +23,7 @@ const MainRouter = () => {
       <Route exact path="/ficchar" component={FictionalCharacters} />
       <Route exact path="/fandoms" component={Fandoms} />
       <Route exact path="/ranimg" component={RandomImage} />
+      <Route exact path="/superpower" component={Superpowers} />
     </Switch>
     </div>
     

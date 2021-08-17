@@ -29,7 +29,7 @@ const Fandoms = () => {
         <br/>
         <h2 className="card bg-secondary">
           <br/>
-          ~{generateFandom()}~
+          👉{generateFandom()}👈
           <br/>
         </h2>
         <br/>
