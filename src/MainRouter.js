@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import FictionalCharacters from './components/FictionalCharacters'
 import Fandoms from './components/Fandoms'
+import RandomImage from './components/RandomImage'
 
 const MainRouter = () => {
 
@@ -20,6 +21,7 @@ const MainRouter = () => {
       <Route exact path="/musicinspo" component={MusicInspo} />
       <Route exact path="/ficchar" component={FictionalCharacters} />
       <Route exact path="/fandoms" component={Fandoms} />
+      <Route exact path="/ranimg" component={RandomImage} />
     </Switch>
     </div>
     
