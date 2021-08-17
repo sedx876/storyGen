@@ -3,8 +3,10 @@ import { Route, Switch } from 'react-router-dom'
 import FirstNameGenerator from './components/FirstNameGenerator'
 import StoryStarter from './components/StoryStarter'
 import MusicInspo from './components/MusicInspo'
+import FictionalCharacter from './components/FictionalCharacters'
 import Navbar from './components/Navbar'
 import Home from './components/Home'
+import FictionalCharacters from './components/FictionalCharacters'
 
 const MainRouter = () => {
 
@@ -16,6 +18,7 @@ const MainRouter = () => {
       <Route exact path="/firstnamegen" component={FirstNameGenerator} />
       <Route exact path="/storystarter" component={StoryStarter} />
       <Route exact path="/musicinspo" component={MusicInspo} />
+      <Route exact path="/ficchar" component={FictionalCharacters} />
     </Switch>
     </div>
     
