@@ -99,7 +99,7 @@ const Navbar = () =>{
         <Link 
           id='' 
           className="text-primary" 
-          to="/superpower">
+          to="/weirdfacts">
           Weird Facts
         </Link>
         </li>
@@ -114,6 +114,8 @@ const Navbar = () =>{
           Fandom Mashup
         </Link>
         </li>
+
+        
 
 
         {/* <li class="nav-item dropdown">
