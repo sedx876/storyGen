@@ -115,6 +115,28 @@ const Navbar = () =>{
         </Link>
         </li>
 
+        ⭐️
+
+        <li class="nav-item">
+        <Link 
+          id='' 
+          className="text-primary" 
+          to="/ailments">
+          Ailments
+        </Link>
+        </li>
+
+        ⭐️
+
+        <li class="nav-item">
+        <Link 
+          id='' 
+          className="text-primary" 
+          to="/journal">
+          Journal Prompts
+        </Link>
+        </li>
+
         
 
 
