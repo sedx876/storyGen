@@ -110,8 +110,8 @@ const Navbar = () =>{
         <Link 
           id='' 
           className="text-primary" 
-          to="/superpower">
-          Fandom Mashup
+          to="/phobias">
+          Phobias
         </Link>
         </li>
 
