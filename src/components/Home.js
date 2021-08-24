@@ -1,6 +1,5 @@
 import React from 'react'
-import FirstNameGenerator from './FirstNameGenerator'
-import StoryStarter from './StoryStarter'
+
 
 const Home = () => {
   return (
