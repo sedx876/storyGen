@@ -13,6 +13,8 @@ import WeirdFacts from './components/WeirdFacts'
 import Phobias from './components/Phobias'
 import Ailments from './components/Ailments'
 import Journal from './components/Journal'
+import Places from './components/Places'
+import Quotes from './components/Quotes'
 
 const MainRouter = () => {
 
@@ -32,6 +34,8 @@ const MainRouter = () => {
       <Route exact path="/phobias" component={Phobias} />
       <Route exact path="/ailments" component={Ailments} />
       <Route exact path="/journal" component={Journal} />
+      <Route exact path="/places" component={Places} />
+      <Route exact path="/quotes" component={Quotes} />
     </Switch>
     </div>
     

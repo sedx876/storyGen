@@ -8,7 +8,7 @@ const Navbar = () =>{
     <nav class="navbar navbar-expand-lg navbar-dark bg-secondary text-primary">
   <div class="container-fluid">
     <Link class="navbar-brand text-primary" to='/'>
-      <img src={story} style={{width: '50px', height: '50px'}}/>
+      <img alt='logo' src={story} style={{width: '50px', height: '50px'}}/>
       storyGen
     </Link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
@@ -134,6 +134,28 @@ const Navbar = () =>{
           className="text-primary" 
           to="/journal">
           Journal Prompts
+        </Link>
+        </li>
+
+        ⭐️
+
+        <li class="nav-item">
+        <Link 
+          id='' 
+          className="text-primary" 
+          to="/places">
+          Random Places
+        </Link>
+        </li>
+
+        ⭐️
+
+        <li class="nav-item">
+        <Link 
+          id='' 
+          className="text-primary" 
+          to="/quotes">
+          Random Quotes
         </Link>
         </li>
 
